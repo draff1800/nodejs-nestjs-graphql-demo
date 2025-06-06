@@ -1,10 +1,10 @@
 {
   "name": "nodejs-nestjs-graphql-demo",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "version": "1.0.0",
+  "description": "A GraphQL API utilising NestJS and Apollo Server. Exposes an endpoint for making queries and mutatations.",
+  "author": "draff1800",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
