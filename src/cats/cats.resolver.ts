@@ -1,7 +1,7 @@
 import { Resolver, Query, Mutation, Args } from '@nestjs/graphql';
 import { CatsService } from './cats.service';
 import { Cat } from './models/cat.model';
-import { CreateCatInput } from './dto/create-cat.input';
+import { CreateCatInput } from './dtos/create-cat.input';
 
 @Resolver(() => Cat)
 export class CatsResolver {

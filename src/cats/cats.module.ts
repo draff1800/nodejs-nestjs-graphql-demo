@@ -3,6 +3,6 @@ import { CatsService } from './cats.service';
 import { CatsResolver } from './cats.resolver';
 
 @Module({
-  providers: [CatsService, CatsResolver]
+  providers: [CatsService, CatsResolver],
 })
 export class CatsModule {}

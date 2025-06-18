@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { Cat } from './models/cat.model';
-import { CreateCatInput } from './dto/create-cat.input';
+import { CreateCatInput } from './dtos/create-cat.input';
 
 @Injectable()
 export class CatsService {
